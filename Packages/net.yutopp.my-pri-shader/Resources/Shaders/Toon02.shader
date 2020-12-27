@@ -70,7 +70,7 @@ Shader "MyPriShader/Toon02"
 
                 // 平行光源と法線の内積を取る。向きが同じほど1
                 float NdotL = dot(normalDirWS, lightDirWS);
-                float diffuse =  max(0, smoothstep(_ShadowShift, _ShadowGradation + _ShadowShift, NdotL));
+                float diffuse = max(0, smoothstep(_ShadowShift, _ShadowGradation + _ShadowShift, NdotL));
 
                 float4 mainTexColor = tex2D(_MainTex, TRANSFORM_TEX(IN.uv0, _MainTex));
                 float4 mainColor = diffuse * _BaseColor * mainTexColor;
