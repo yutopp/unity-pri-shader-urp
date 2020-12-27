@@ -1,0 +1,10 @@
+{
+    "name": "net.yutopp.my-pri-shader",
+    "displayName": "MyPriShader",
+    "version": "0.0.1",
+    "unity": "2020.1",
+    "description": "",
+    "keywords": [],
+    "category": "",
+    "dependencies": {}
+}
