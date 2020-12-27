@@ -109,6 +109,12 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "net.yutopp.my-pri-shader": {
+      "version": "file:net.yutopp.my-pri-shader",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
